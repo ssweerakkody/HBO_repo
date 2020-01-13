@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jOC-W8-6V2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hMN-FQ-VRz">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -106,10 +106,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbo-now-logo" translatesAutoresizingMaskIntoConstraints="NO" id="b3F-yQ-qTF">
-                                <rect key="frame" x="87" y="44" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaM-1K-9vM">
                                 <rect key="frame" x="29" y="377" width="357" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -124,6 +120,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Forget Password?"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbo-now-logo" translatesAutoresizingMaskIntoConstraints="NO" id="b3F-yQ-qTF">
+                                <rect key="frame" x="87" y="20" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ghO-JX-NSf"/>
@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XR3-AY-7Lx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2743" y="-19"/>
+            <point key="canvasLocation" x="2765" y="-35"/>
         </scene>
         <!--Registration View Controller-->
         <scene sceneID="2v4-gs-OzH">
@@ -146,95 +146,89 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hLE-zu-qHE">
-                                <rect key="frame" x="29" y="251" width="176" height="59"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hLE-zu-qHE">
+                                <rect key="frame" x="29" y="243" width="176" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qtQ-ic-N7y">
-                                <rect key="frame" x="206" y="251" width="180" height="59"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="59" id="OMp-Qe-hCi"/>
-                                    <constraint firstAttribute="width" constant="180" id="ZJ9-b9-MMt"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPp-rL-QY5">
-                                <rect key="frame" x="29" y="311" width="357" height="53"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qtQ-ic-N7y">
+                                <rect key="frame" x="206" y="243" width="180" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G8d-Uc-deK">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPp-rL-QY5">
+                                <rect key="frame" x="29" y="303" width="357" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G8d-Uc-deK">
                                 <rect key="frame" x="29" y="446" width="357" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="59" id="v7V-Oh-1D7"/>
-                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Confirm Password " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="McI-Mv-Ecb">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Confirm Password " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="McI-Mv-Ecb">
                                 <rect key="frame" x="29" y="506" width="357" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hbo-now-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4aK-gG-7CY">
-                                <rect key="frame" x="87" y="62" width="240" height="128"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuK-Xw-oqP">
-                                <rect key="frame" x="29" y="757" width="357" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuK-Xw-oqP">
+                                <rect key="frame" x="29" y="725" width="357" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="pTl-uf-YYn"/>
-                                </constraints>
                                 <state key="normal" title="Register for HBO Now">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Zip Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tsY-d6-dXI">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Zip Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tsY-d6-dXI">
                                 <rect key="frame" x="29" y="602" width="357" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter your information below. Your email address and password become part of your HBO NOW profile." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gs-1v-tt6">
-                                <rect key="frame" x="29" y="159" width="357" height="77"/>
+                                <rect key="frame" x="29" y="148" width="357" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Already have an HBO NOW account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hN1-zk-Jk6">
-                                <rect key="frame" x="29" y="822" width="258" height="31"/>
+                                <rect key="frame" x="29" y="791" width="258" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your password must be at least 8 characters long, and combine letters with numerals and/or special characters" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPb-do-yvw">
-                                <rect key="frame" x="29" y="367" width="357" height="77"/>
+                                <rect key="frame" x="29" y="359" width="357" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47i-eD-br6">
-                                <rect key="frame" x="287" y="822" width="47" height="30"/>
+                                <rect key="frame" x="287" y="791" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign In"/>
                                 <connections>
-                                    <segue destination="jOC-W8-6V2" kind="show" id="fh4-k2-A8d"/>
+                                    <segue destination="jOC-W8-6V2" kind="show" id="FXk-8G-y6k"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By checking this box, you agree to HBO Terms and Conditions and HBO Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRa-ef-KkW">
@@ -244,33 +238,12 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbo-now-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4aK-gG-7CY">
+                                <rect key="frame" x="87" y="23" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <constraints>
-                            <constraint firstItem="G8d-Uc-deK" firstAttribute="top" secondItem="nPp-rL-QY5" secondAttribute="bottom" constant="69" id="3fR-6h-dle"/>
-                            <constraint firstItem="S7n-Ib-79V" firstAttribute="bottom" secondItem="YuK-Xw-oqP" secondAttribute="bottom" constant="32" id="5Yb-NF-1Ny"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="trailing" secondItem="tsY-d6-dXI" secondAttribute="trailing" id="7jp-DF-H3y"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="trailing" secondItem="G8d-Uc-deK" secondAttribute="trailing" id="DNB-bZ-icH"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="leading" secondItem="nPp-rL-QY5" secondAttribute="leading" id="DtB-qK-blf"/>
-                            <constraint firstItem="qtQ-ic-N7y" firstAttribute="top" secondItem="4aK-gG-7CY" secondAttribute="bottom" constant="61" id="EvQ-A2-Npj"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="trailing" secondItem="McI-Mv-Ecb" secondAttribute="trailing" id="Kdd-xt-6Rq"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="leading" secondItem="McI-Mv-Ecb" secondAttribute="leading" id="QL1-63-vP4"/>
-                            <constraint firstItem="McI-Mv-Ecb" firstAttribute="top" secondItem="G8d-Uc-deK" secondAttribute="bottom" constant="48" id="Uqt-rL-2UQ"/>
-                            <constraint firstItem="tsY-d6-dXI" firstAttribute="leading" secondItem="S7n-Ib-79V" secondAttribute="leading" constant="29" id="Ziv-ab-Isj"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="trailing" secondItem="qtQ-ic-N7y" secondAttribute="trailing" id="gVG-lD-GEy"/>
-                            <constraint firstItem="S7n-Ib-79V" firstAttribute="trailing" secondItem="tsY-d6-dXI" secondAttribute="trailing" constant="28" id="hal-42-EDO"/>
-                            <constraint firstItem="qtQ-ic-N7y" firstAttribute="baseline" secondItem="hLE-zu-qHE" secondAttribute="baseline" id="hpd-qH-6uU"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="centerX" secondItem="4aK-gG-7CY" secondAttribute="centerX" id="iHa-A1-ejB"/>
-                            <constraint firstItem="qtQ-ic-N7y" firstAttribute="bottom" secondItem="hLE-zu-qHE" secondAttribute="bottom" id="idK-Zs-799"/>
-                            <constraint firstItem="nPp-rL-QY5" firstAttribute="top" secondItem="qtQ-ic-N7y" secondAttribute="bottom" constant="38" id="k2V-Px-ADn"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="leading" secondItem="tsY-d6-dXI" secondAttribute="leading" id="kqV-fm-6IW"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="leading" secondItem="hLE-zu-qHE" secondAttribute="leading" id="kuW-TW-EM1"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="leading" secondItem="G8d-Uc-deK" secondAttribute="leading" id="n8y-cM-hFb"/>
-                            <constraint firstItem="qtQ-ic-N7y" firstAttribute="leading" secondItem="hLE-zu-qHE" secondAttribute="trailing" constant="1" id="rLw-RN-kpC"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="trailing" secondItem="nPp-rL-QY5" secondAttribute="trailing" id="rM8-P2-AgF"/>
-                            <constraint firstItem="tsY-d6-dXI" firstAttribute="top" secondItem="McI-Mv-Ecb" secondAttribute="bottom" constant="34" id="rec-ps-xPf"/>
-                            <constraint firstItem="YuK-Xw-oqP" firstAttribute="top" secondItem="tsY-d6-dXI" secondAttribute="bottom" constant="149" id="tfM-rt-rMw"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="S7n-Ib-79V"/>
                     </view>
                     <connections>
