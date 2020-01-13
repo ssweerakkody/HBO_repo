@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hMN-FQ-VRz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jOC-W8-6V2">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -28,7 +28,7 @@
         <!--View Controller-->
         <scene sceneID="YS2-xT-jD6">
             <objects>
-                <viewController id="cj1-CO-rMd" customClass="ViewController" customModule="InputForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cj1-CO-rMd" customClass="ViewController" customModule="HBO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tgg-TO-j7g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,47 +85,72 @@
         <!--Login View Controller-->
         <scene sceneID="4dH-ba-oVo">
             <objects>
-                <viewController id="jOC-W8-6V2" customClass="LoginViewController" customModule="InputForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jOC-W8-6V2" customClass="LoginViewController" customModule="HBO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZVG-Da-PKB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T2W-Aa-o9l">
-                                <rect key="frame" x="29" y="233" width="357" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T2W-Aa-o9l">
+                                <rect key="frame" x="28.5" y="233" width="357" height="59"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="Zwn-bZ-a1a"/>
+                                    <constraint firstAttribute="width" constant="357" id="uwC-n4-QIz"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJU-VX-3zX">
-                                <rect key="frame" x="29" y="300" width="357" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJU-VX-3zX">
+                                <rect key="frame" x="28.5" y="300" width="357" height="59"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="357" id="8Bq-bf-PdE"/>
+                                    <constraint firstAttribute="height" constant="59" id="bHW-F7-P8j"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaM-1K-9vM">
-                                <rect key="frame" x="29" y="377" width="357" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaM-1K-9vM">
+                                <rect key="frame" x="28.5" y="377" width="357" height="48"/>
                                 <color key="backgroundColor" red="0.29612633179999998" green="0.36452498630000002" blue="0.82391515540000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="TVf-Vd-L8L"/>
+                                    <constraint firstAttribute="width" constant="357" id="f9p-tn-8Pc"/>
+                                </constraints>
                                 <inset key="titleEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fF-kh-nKt">
-                                <rect key="frame" x="146" y="488" width="123" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fF-kh-nKt">
+                                <rect key="frame" x="145.5" y="488" width="123" height="30"/>
                                 <state key="normal" title="Forget Password?"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbo-now-logo" translatesAutoresizingMaskIntoConstraints="NO" id="b3F-yQ-qTF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hbo-now-logo" translatesAutoresizingMaskIntoConstraints="NO" id="b3F-yQ-qTF">
                                 <rect key="frame" x="87" y="20" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="E8Z-NH-Nmo"/>
+                                    <constraint firstAttribute="height" constant="128" id="u18-gm-zOY"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ghO-JX-NSf" firstAttribute="trailing" secondItem="b3F-yQ-qTF" secondAttribute="trailing" constant="87" id="8YM-Ao-piG"/>
+                            <constraint firstItem="T2W-Aa-o9l" firstAttribute="top" secondItem="b3F-yQ-qTF" secondAttribute="bottom" constant="85" id="8lX-0B-6pO"/>
+                            <constraint firstItem="b3F-yQ-qTF" firstAttribute="top" secondItem="ZVG-Da-PKB" secondAttribute="top" constant="20" id="CZY-eI-DQu"/>
+                            <constraint firstItem="b3F-yQ-qTF" firstAttribute="centerX" secondItem="ghO-JX-NSf" secondAttribute="centerX" id="DYz-p6-IvV"/>
+                            <constraint firstItem="b3F-yQ-qTF" firstAttribute="leading" secondItem="ghO-JX-NSf" secondAttribute="leading" constant="87" id="FAU-h7-MtK"/>
+                            <constraint firstItem="fJU-VX-3zX" firstAttribute="top" secondItem="T2W-Aa-o9l" secondAttribute="bottom" constant="8" id="L2a-eP-0Kz"/>
+                            <constraint firstItem="4fF-kh-nKt" firstAttribute="top" secondItem="KaM-1K-9vM" secondAttribute="bottom" constant="63" id="Pzb-fK-0Z3"/>
+                            <constraint firstItem="KaM-1K-9vM" firstAttribute="centerX" secondItem="4fF-kh-nKt" secondAttribute="centerX" id="Tfo-Re-KoD"/>
+                            <constraint firstItem="KaM-1K-9vM" firstAttribute="leading" secondItem="fJU-VX-3zX" secondAttribute="leading" id="XJ6-Ka-vni"/>
+                            <constraint firstItem="KaM-1K-9vM" firstAttribute="top" secondItem="fJU-VX-3zX" secondAttribute="bottom" constant="18" id="aVM-0q-Cty"/>
+                            <constraint firstItem="KaM-1K-9vM" firstAttribute="centerX" secondItem="b3F-yQ-qTF" secondAttribute="centerX" id="hBb-am-SCh"/>
+                            <constraint firstItem="KaM-1K-9vM" firstAttribute="leading" secondItem="T2W-Aa-o9l" secondAttribute="leading" id="hrA-qx-X37"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ghO-JX-NSf"/>
                     </view>
                     <connections>
@@ -141,7 +166,7 @@
         <!--Registration View Controller-->
         <scene sceneID="2v4-gs-OzH">
             <objects>
-                <viewController id="hMN-FQ-VRz" customClass="RegistrationViewController" customModule="InputForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hMN-FQ-VRz" customClass="RegistrationViewController" customModule="HBO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uwm-In-LBn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,7 +177,7 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" textContentType="name"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qtQ-ic-N7y">
                                 <rect key="frame" x="206" y="243" width="180" height="59"/>
