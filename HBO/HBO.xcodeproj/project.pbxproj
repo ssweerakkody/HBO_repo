@@ -103,14 +103,14 @@
 		9914A52A23CCD12600095C51 /* HBO */ = {
 			isa = PBXGroup;
 			children = (
-				9914A55A23CCD3D900095C51 /* Extrensions.swift */,
-				9914A55B23CCD3D900095C51 /* LoginViewController.swift */,
-				9914A55923CCD3D900095C51 /* RegistrationViewController.swift */,
 				9914A52B23CCD12600095C51 /* AppDelegate.swift */,
 				9914A52D23CCD12600095C51 /* ViewController.swift */,
 				9914A52F23CCD12600095C51 /* Main.storyboard */,
 				9914A53223CCD12800095C51 /* Assets.xcassets */,
 				9914A53423CCD12800095C51 /* LaunchScreen.storyboard */,
+				9914A55B23CCD3D900095C51 /* LoginViewController.swift */,
+				9914A55923CCD3D900095C51 /* RegistrationViewController.swift */,
+				9914A55A23CCD3D900095C51 /* Extrensions.swift */,
 				9914A53723CCD12800095C51 /* Info.plist */,
 			);
 			path = HBO;
