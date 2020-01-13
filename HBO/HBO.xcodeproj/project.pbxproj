@@ -14,6 +14,9 @@
 		9914A53623CCD12800095C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9914A53423CCD12800095C51 /* LaunchScreen.storyboard */; };
 		9914A54123CCD12800095C51 /* HBOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A54023CCD12800095C51 /* HBOTests.swift */; };
 		9914A54C23CCD12800095C51 /* HBOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A54B23CCD12800095C51 /* HBOUITests.swift */; };
+		9914A55C23CCD3D900095C51 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55923CCD3D900095C51 /* RegistrationViewController.swift */; };
+		9914A55D23CCD3D900095C51 /* Extrensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55A23CCD3D900095C51 /* Extrensions.swift */; };
+		9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55B23CCD3D900095C51 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9914A54723CCD12800095C51 /* HBOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9914A54B23CCD12800095C51 /* HBOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOUITests.swift; sourceTree = "<group>"; };
 		9914A54D23CCD12800095C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9914A55923CCD3D900095C51 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		9914A55A23CCD3D900095C51 /* Extrensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extrensions.swift; sourceTree = "<group>"; };
+		9914A55B23CCD3D900095C51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		9914A52A23CCD12600095C51 /* HBO */ = {
 			isa = PBXGroup;
 			children = (
+				9914A55A23CCD3D900095C51 /* Extrensions.swift */,
+				9914A55B23CCD3D900095C51 /* LoginViewController.swift */,
+				9914A55923CCD3D900095C51 /* RegistrationViewController.swift */,
 				9914A52B23CCD12600095C51 /* AppDelegate.swift */,
 				9914A52D23CCD12600095C51 /* ViewController.swift */,
 				9914A52F23CCD12600095C51 /* Main.storyboard */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9914A55C23CCD3D900095C51 /* RegistrationViewController.swift in Sources */,
 				9914A52E23CCD12600095C51 /* ViewController.swift in Sources */,
+				9914A55D23CCD3D900095C51 /* Extrensions.swift in Sources */,
+				9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */,
 				9914A52C23CCD12600095C51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
