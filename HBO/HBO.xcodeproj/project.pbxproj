@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3570696F6B379B179FB25A53 /* Pods_HBO_HBOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F394FC3E4414C2622280A49E /* Pods_HBO_HBOUITests.framework */; };
+		692CCF244F7241320303B2B8 /* Pods_HBOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522EC29665DEB66601CCE421 /* Pods_HBOTests.framework */; };
 		9914A52C23CCD12600095C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A52B23CCD12600095C51 /* AppDelegate.swift */; };
 		9914A52E23CCD12600095C51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A52D23CCD12600095C51 /* ViewController.swift */; };
 		9914A53123CCD12600095C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9914A52F23CCD12600095C51 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 		9914A55C23CCD3D900095C51 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55923CCD3D900095C51 /* RegistrationViewController.swift */; };
 		9914A55D23CCD3D900095C51 /* Extrensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55A23CCD3D900095C51 /* Extrensions.swift */; };
 		9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55B23CCD3D900095C51 /* LoginViewController.swift */; };
+		99463C0D23CF84B60067D709 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99463C0C23CF84B60067D709 /* GoogleService-Info.plist */; };
+		CBBD7822E74BE98A37CDE965 /* Pods_HBO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591CFB5E06469E6F34AEB93A /* Pods_HBO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1150693E2F9095523B91CED7 /* Pods-HBOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOTests.debug.xcconfig"; path = "Target Support Files/Pods-HBOTests/Pods-HBOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF171D065F052028A787898 /* Pods-HBO-HBOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO-HBOUITests.release.xcconfig"; path = "Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		522EC29665DEB66601CCE421 /* Pods_HBOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5442D21BBF1DE82E7E62F9F5 /* Pods-HBO-HBOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO-HBOUITests.debug.xcconfig"; path = "Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		591CFB5E06469E6F34AEB93A /* Pods_HBO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7763BAEB7943179C56970553 /* Pods-HBO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.debug.xcconfig"; path = "Target Support Files/Pods-HBO/Pods-HBO.debug.xcconfig"; sourceTree = "<group>"; };
+		9235072259369B8C769DB8C0 /* Pods-HBOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOTests.release.xcconfig"; path = "Target Support Files/Pods-HBOTests/Pods-HBOTests.release.xcconfig"; sourceTree = "<group>"; };
 		9914A52823CCD12600095C51 /* HBO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9914A52B23CCD12600095C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9914A52D23CCD12600095C51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +64,9 @@
 		9914A55923CCD3D900095C51 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		9914A55A23CCD3D900095C51 /* Extrensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extrensions.swift; sourceTree = "<group>"; };
 		9914A55B23CCD3D900095C51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		99463C0C23CF84B60067D709 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B8670E2AC1DB5896F063690E /* Pods-HBO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.release.xcconfig"; path = "Target Support Files/Pods-HBO/Pods-HBO.release.xcconfig"; sourceTree = "<group>"; };
+		F394FC3E4414C2622280A49E /* Pods_HBO_HBOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_HBOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBD7822E74BE98A37CDE965 /* Pods_HBO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692CCF244F7241320303B2B8 /* Pods_HBOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3570696F6B379B179FB25A53 /* Pods_HBO_HBOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0342B75718558F8A7DA72C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				591CFB5E06469E6F34AEB93A /* Pods_HBO.framework */,
+				F394FC3E4414C2622280A49E /* Pods_HBO_HBOUITests.framework */,
+				522EC29665DEB66601CCE421 /* Pods_HBOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		134BBDEB4D82B7501EB99CE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7763BAEB7943179C56970553 /* Pods-HBO.debug.xcconfig */,
+				B8670E2AC1DB5896F063690E /* Pods-HBO.release.xcconfig */,
+				5442D21BBF1DE82E7E62F9F5 /* Pods-HBO-HBOUITests.debug.xcconfig */,
+				2FF171D065F052028A787898 /* Pods-HBO-HBOUITests.release.xcconfig */,
+				1150693E2F9095523B91CED7 /* Pods-HBOTests.debug.xcconfig */,
+				9235072259369B8C769DB8C0 /* Pods-HBOTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9914A51F23CCD12600095C51 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +128,8 @@
 				9914A53F23CCD12800095C51 /* HBOTests */,
 				9914A54A23CCD12800095C51 /* HBOUITests */,
 				9914A52923CCD12600095C51 /* Products */,
+				134BBDEB4D82B7501EB99CE2 /* Pods */,
+				0342B75718558F8A7DA72C2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +155,7 @@
 				9914A55923CCD3D900095C51 /* RegistrationViewController.swift */,
 				9914A55A23CCD3D900095C51 /* Extrensions.swift */,
 				9914A53723CCD12800095C51 /* Info.plist */,
+				99463C0C23CF84B60067D709 /* GoogleService-Info.plist */,
 			);
 			path = HBO;
 			sourceTree = "<group>";
@@ -141,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9914A55023CCD12800095C51 /* Build configuration list for PBXNativeTarget "HBO" */;
 			buildPhases = (
+				59F9C937441142675A9C2510 /* [CP] Check Pods Manifest.lock */,
 				9914A52423CCD12600095C51 /* Sources */,
 				9914A52523CCD12600095C51 /* Frameworks */,
 				9914A52623CCD12600095C51 /* Resources */,
+				5EA1AB906742E43AAA41413D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9914A55323CCD12800095C51 /* Build configuration list for PBXNativeTarget "HBOTests" */;
 			buildPhases = (
+				2E52AD37D3F501B31700E3DE /* [CP] Check Pods Manifest.lock */,
 				9914A53823CCD12800095C51 /* Sources */,
 				9914A53923CCD12800095C51 /* Frameworks */,
 				9914A53A23CCD12800095C51 /* Resources */,
@@ -176,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9914A55623CCD12800095C51 /* Build configuration list for PBXNativeTarget "HBOUITests" */;
 			buildPhases = (
+				3BF46861038AA09A4C82BFC3 /* [CP] Check Pods Manifest.lock */,
 				9914A54323CCD12800095C51 /* Sources */,
 				9914A54423CCD12800095C51 /* Frameworks */,
 				9914A54523CCD12800095C51 /* Resources */,
+				6E1B348EF3A2FC2E5617F0DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9914A53623CCD12800095C51 /* LaunchScreen.storyboard in Resources */,
+				99463C0D23CF84B60067D709 /* GoogleService-Info.plist in Resources */,
 				9914A53323CCD12800095C51 /* Assets.xcassets in Resources */,
 				9914A53123CCD12600095C51 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E52AD37D3F501B31700E3DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF46861038AA09A4C82BFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBO-HBOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F9C937441142675A9C2510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA1AB906742E43AAA41413D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO/Pods-HBO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO/Pods-HBO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBO/Pods-HBO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1B348EF3A2FC2E5617F0DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9914A52423CCD12600095C51 /* Sources */ = {
@@ -442,6 +595,7 @@
 		};
 		9914A55123CCD12800095C51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7763BAEB7943179C56970553 /* Pods-HBO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +613,7 @@
 		};
 		9914A55223CCD12800095C51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8670E2AC1DB5896F063690E /* Pods-HBO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +631,7 @@
 		};
 		9914A55423CCD12800095C51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1150693E2F9095523B91CED7 /* Pods-HBOTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +652,7 @@
 		};
 		9914A55523CCD12800095C51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9235072259369B8C769DB8C0 /* Pods-HBOTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +673,7 @@
 		};
 		9914A55723CCD12800095C51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5442D21BBF1DE82E7E62F9F5 /* Pods-HBO-HBOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +693,7 @@
 		};
 		9914A55823CCD12800095C51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF171D065F052028A787898 /* Pods-HBO-HBOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
