@@ -236,6 +236,9 @@
                                 <state key="normal" title="Register for HBO Now">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnRegister:" destination="hMN-FQ-VRz" eventType="touchUpInside" id="dnf-kI-0ph"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Zip Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tsY-d6-dXI">
                                 <rect key="frame" x="29" y="602" width="357" height="54"/>
