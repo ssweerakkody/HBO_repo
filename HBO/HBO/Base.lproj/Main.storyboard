@@ -123,6 +123,9 @@
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSignIn:" destination="jOC-W8-6V2" eventType="touchUpInside" id="hUV-Xe-2VJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fF-kh-nKt">
                                 <rect key="frame" x="145.5" y="488" width="123" height="30"/>
@@ -309,6 +312,10 @@
                                     <constraint firstAttribute="height" constant="128" id="WZp-Bq-BQE"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0i-va-uCS" customClass="CheckBox" customModule="HBO" customModuleProvider="target">
+                                <rect key="frame" x="29" y="677" width="26" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>

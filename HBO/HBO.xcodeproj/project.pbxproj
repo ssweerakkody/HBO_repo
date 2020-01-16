@@ -19,6 +19,8 @@
 		9914A55C23CCD3D900095C51 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55923CCD3D900095C51 /* RegistrationViewController.swift */; };
 		9914A55D23CCD3D900095C51 /* Extrensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55A23CCD3D900095C51 /* Extrensions.swift */; };
 		9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55B23CCD3D900095C51 /* LoginViewController.swift */; };
+		99463C0F23CF882F0067D709 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99463C0E23CF882F0067D709 /* GoogleService-Info.plist */; };
+		998DE30B23D08E1B001D8A90 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DE30A23D08E1B001D8A90 /* CheckBox.swift */; };
 		CBBD7822E74BE98A37CDE965 /* Pods_HBO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591CFB5E06469E6F34AEB93A /* Pods_HBO.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		9914A55923CCD3D900095C51 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		9914A55A23CCD3D900095C51 /* Extrensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extrensions.swift; sourceTree = "<group>"; };
 		9914A55B23CCD3D900095C51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		99463C0E23CF882F0067D709 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		998DE30A23D08E1B001D8A90 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		B8670E2AC1DB5896F063690E /* Pods-HBO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.release.xcconfig"; path = "Target Support Files/Pods-HBO/Pods-HBO.release.xcconfig"; sourceTree = "<group>"; };
 		F394FC3E4414C2622280A49E /* Pods_HBO_HBOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_HBOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +147,7 @@
 		9914A52A23CCD12600095C51 /* HBO */ = {
 			isa = PBXGroup;
 			children = (
+				99463C0E23CF882F0067D709 /* GoogleService-Info.plist */,
 				9914A52B23CCD12600095C51 /* AppDelegate.swift */,
 				9914A52D23CCD12600095C51 /* ViewController.swift */,
 				9914A52F23CCD12600095C51 /* Main.storyboard */,
@@ -152,6 +157,7 @@
 				9914A55923CCD3D900095C51 /* RegistrationViewController.swift */,
 				9914A55A23CCD3D900095C51 /* Extrensions.swift */,
 				9914A53723CCD12800095C51 /* Info.plist */,
+				998DE30A23D08E1B001D8A90 /* CheckBox.swift */,
 			);
 			path = HBO;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9914A53623CCD12800095C51 /* LaunchScreen.storyboard in Resources */,
+				99463C0F23CF882F0067D709 /* GoogleService-Info.plist in Resources */,
 				9914A53323CCD12800095C51 /* Assets.xcassets in Resources */,
 				9914A53123CCD12600095C51 /* Main.storyboard in Resources */,
 			);
@@ -415,6 +422,7 @@
 			files = (
 				9914A55C23CCD3D900095C51 /* RegistrationViewController.swift in Sources */,
 				9914A52E23CCD12600095C51 /* ViewController.swift in Sources */,
+				998DE30B23D08E1B001D8A90 /* CheckBox.swift in Sources */,
 				9914A55D23CCD3D900095C51 /* Extrensions.swift in Sources */,
 				9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */,
 				9914A52C23CCD12600095C51 /* AppDelegate.swift in Sources */,
