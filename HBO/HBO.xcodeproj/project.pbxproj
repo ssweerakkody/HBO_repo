@@ -21,6 +21,7 @@
 		9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55B23CCD3D900095C51 /* LoginViewController.swift */; };
 		9931737D23D35A2B0098B88D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931737C23D35A2B0098B88D /* ImagePicker.swift */; };
 		9931737F23D35DCF0098B88D /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931737E23D35DCF0098B88D /* AddMovieViewController.swift */; };
+		9949583C23D4AD3D00E5B26F /* UserAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9949583B23D4AD3D00E5B26F /* UserAuthentication.storyboard */; };
 		994A9D7423D1E203004E4B37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994A9D7323D1E202004E4B37 /* GoogleService-Info.plist */; };
 		994A9D7A23D1E86A004E4B37 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A9D7923D1E86A004E4B37 /* RootViewController.swift */; };
 		998DE30B23D08E1B001D8A90 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DE30A23D08E1B001D8A90 /* CheckBox.swift */; };
@@ -70,6 +71,7 @@
 		9914A55B23CCD3D900095C51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9931737C23D35A2B0098B88D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		9931737E23D35DCF0098B88D /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
+		9949583B23D4AD3D00E5B26F /* UserAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserAuthentication.storyboard; sourceTree = "<group>"; };
 		994A9D7323D1E202004E4B37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		994A9D7923D1E86A004E4B37 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		998DE30A23D08E1B001D8A90 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 			children = (
 				9914A53423CCD12800095C51 /* LaunchScreen.storyboard */,
 				9914A52F23CCD12600095C51 /* Main.storyboard */,
+				9949583B23D4AD3D00E5B26F /* UserAuthentication.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9949583C23D4AD3D00E5B26F /* UserAuthentication.storyboard in Resources */,
 				9914A53623CCD12800095C51 /* LaunchScreen.storyboard in Resources */,
 				994A9D7423D1E203004E4B37 /* GoogleService-Info.plist in Resources */,
 				9914A53323CCD12800095C51 /* Assets.xcassets in Resources */,
