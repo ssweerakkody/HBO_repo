@@ -44,25 +44,22 @@ class RegistrationViewController: UIViewController{
         //create the user in authentication
         
         Auth.auth().createUser(withEmail: txtEmail.text!, password: txtPassword.text!) { authResult, error in
-            // [START_EXCLUDE]
-            //strongSelf.hideSpinner {
-                guard let user = authResult?.user, error == nil else {
-                    //strongSelf.showMessagePrompt(error!.localizedDescription)
-                    return
-                }
-                print("\(user.email!) created")
-                //strongSelf.navigationController?.popViewController(animated: true)
             
-            // [END_EXCLUDE]
+            if((error==nil)){
+                
+             self.showAlert(title: "Success", message: "User Registration Success !")
+//                let vc = UIStoryboard(name:"main",bundle: nil).instantiateViewController(withIdentifier: "login")
+//
+//                self.present(vc,animated: true,completion: nil)
+                
+            }
+            else{
+                
+            self.showAlert(title: "Error", message: (error?.localizedDescription)!)
+                
+            }
+        
         }
-        
-        
-        let alertController = UIAlertController(title: "Success", message: "User Registration Success !", preferredStyle: .alert)
-        let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-        
-        
-        alertController.addAction(defaultAction)
-        self.present(alertController, animated: true, completion: nil)
         
     }
     
@@ -95,4 +92,18 @@ class RegistrationViewController: UIViewController{
         txtConfirmPassword.placeholderColor(color: UIColor.white)
         txtZipCode.placeholderColor(color: UIColor.white)
     }
+    
+    
+    func showAlert(title:String,message:String){
+        
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        
+        alertController.addAction(defaultAction)
+        self.present(alertController, animated: true, completion: nil)
+        
+        
+    }
+    
+    
 }

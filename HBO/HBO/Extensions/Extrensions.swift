@@ -49,3 +49,11 @@ extension UIButton{
     }
 }
 
+//extensions for View Controllers
+extension AddMovieViewController: ImagePickerDelegate {
+    
+    func didSelect(image: UIImage?) {
+        self.MovieImage.image = image
+    }
+}
+

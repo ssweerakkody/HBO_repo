@@ -6,4 +6,19 @@
 //  Copyright © 2020 Suneth. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class RootViewController: UIViewController{
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        addStylesToRegister()
+        
+    }
+    
+    func addStylesToRegister()  {
+        
+    }
+    
+}
