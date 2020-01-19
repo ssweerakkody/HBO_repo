@@ -10,6 +10,17 @@ target 'HBO' do
   pod 'Firebase/Auth' 
   pod 'Firebase/Database'
   
+  pod 'SwiftyJSON'
+  pod 'Firebase/Storage'
+  
+  #pod 'Firebase/Firestore'
+  
+  pod 'Kingfisher', '~> 5.9'
+  pod 'BiometricAuthentication'
+
+  #Build failed on GoogleSignIn	
+  #pod 'GoogleSignIn'
+  
   target 'HBOTests' do
     inherit! :search_paths
     # Pods for testing
