@@ -21,9 +21,14 @@
 		9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914A55B23CCD3D900095C51 /* LoginViewController.swift */; };
 		9931737D23D35A2B0098B88D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931737C23D35A2B0098B88D /* ImagePicker.swift */; };
 		9931737F23D35DCF0098B88D /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931737E23D35DCF0098B88D /* AddMovieViewController.swift */; };
+		9933C42123E7FAF4000818B6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9933C42023E7FAF4000818B6 /* Movie.swift */; };
+		9933C42323E801D1000818B6 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9933C42223E801D1000818B6 /* MovieTableViewCell.swift */; };
 		9949583C23D4AD3D00E5B26F /* UserAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9949583B23D4AD3D00E5B26F /* UserAuthentication.storyboard */; };
 		994A9D7423D1E203004E4B37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994A9D7323D1E202004E4B37 /* GoogleService-Info.plist */; };
 		994A9D7A23D1E86A004E4B37 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A9D7923D1E86A004E4B37 /* RootViewController.swift */; };
+		995BD45123E531FA009C1A5A /* TempCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995BD45023E531FA009C1A5A /* TempCellView.swift */; };
+		995BD45523E53253009C1A5A /* MovieTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995BD45323E53253009C1A5A /* MovieTableCellView.xib */; };
+		996BF9D923DD9A870066E632 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BF9D823DD9A870066E632 /* MovieListViewController.swift */; };
 		998DE30B23D08E1B001D8A90 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DE30A23D08E1B001D8A90 /* CheckBox.swift */; };
 		CBBD7822E74BE98A37CDE965 /* Pods_HBO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591CFB5E06469E6F34AEB93A /* Pods_HBO.framework */; };
 /* End PBXBuildFile section */
@@ -71,9 +76,14 @@
 		9914A55B23CCD3D900095C51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9931737C23D35A2B0098B88D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		9931737E23D35DCF0098B88D /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
+		9933C42023E7FAF4000818B6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9933C42223E801D1000818B6 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		9949583B23D4AD3D00E5B26F /* UserAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserAuthentication.storyboard; sourceTree = "<group>"; };
 		994A9D7323D1E202004E4B37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		994A9D7923D1E86A004E4B37 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		995BD45023E531FA009C1A5A /* TempCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCellView.swift; sourceTree = "<group>"; };
+		995BD45323E53253009C1A5A /* MovieTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieTableCellView.xib; sourceTree = "<group>"; };
+		996BF9D823DD9A870066E632 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		998DE30A23D08E1B001D8A90 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		B8670E2AC1DB5896F063690E /* Pods-HBO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.release.xcconfig"; path = "Target Support Files/Pods-HBO/Pods-HBO.release.xcconfig"; sourceTree = "<group>"; };
 		F394FC3E4414C2622280A49E /* Pods_HBO_HBOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_HBOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +165,8 @@
 		9914A52A23CCD12600095C51 /* HBO */ = {
 			isa = PBXGroup;
 			children = (
+				9933C41F23E7FAE0000818B6 /* Models */,
+				996BF9D523DD95700066E632 /* TableViews */,
 				994A9D7323D1E202004E4B37 /* GoogleService-Info.plist */,
 				9914A52B23CCD12600095C51 /* AppDelegate.swift */,
 				9914A53223CCD12800095C51 /* Assets.xcassets */,
@@ -201,6 +213,14 @@
 			path = PartialViewControllers;
 			sourceTree = "<group>";
 		};
+		9933C41F23E7FAE0000818B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9933C42023E7FAF4000818B6 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		994A9D7523D1E3E8004E4B37 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,8 +256,19 @@
 				9914A55923CCD3D900095C51 /* RegistrationViewController.swift */,
 				994A9D7923D1E86A004E4B37 /* RootViewController.swift */,
 				9931737E23D35DCF0098B88D /* AddMovieViewController.swift */,
+				996BF9D823DD9A870066E632 /* MovieListViewController.swift */,
 			);
 			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		996BF9D523DD95700066E632 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				9933C42223E801D1000818B6 /* MovieTableViewCell.swift */,
+				995BD45323E53253009C1A5A /* MovieTableCellView.xib */,
+				995BD45023E531FA009C1A5A /* TempCellView.swift */,
+			);
+			path = TableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +384,7 @@
 				9914A53623CCD12800095C51 /* LaunchScreen.storyboard in Resources */,
 				994A9D7423D1E203004E4B37 /* GoogleService-Info.plist in Resources */,
 				9914A53323CCD12800095C51 /* Assets.xcassets in Resources */,
+				995BD45523E53253009C1A5A /* MovieTableCellView.xib in Resources */,
 				9914A53123CCD12600095C51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,13 +515,17 @@
 			files = (
 				9914A55C23CCD3D900095C51 /* RegistrationViewController.swift in Sources */,
 				9914A52E23CCD12600095C51 /* ViewController.swift in Sources */,
+				995BD45123E531FA009C1A5A /* TempCellView.swift in Sources */,
 				9931737F23D35DCF0098B88D /* AddMovieViewController.swift in Sources */,
 				998DE30B23D08E1B001D8A90 /* CheckBox.swift in Sources */,
 				994A9D7A23D1E86A004E4B37 /* RootViewController.swift in Sources */,
 				9914A55D23CCD3D900095C51 /* Extrensions.swift in Sources */,
+				9933C42123E7FAF4000818B6 /* Movie.swift in Sources */,
+				996BF9D923DD9A870066E632 /* MovieListViewController.swift in Sources */,
 				9931737D23D35A2B0098B88D /* ImagePicker.swift in Sources */,
 				9914A55E23CCD3D900095C51 /* LoginViewController.swift in Sources */,
 				9914A52C23CCD12600095C51 /* AppDelegate.swift in Sources */,
+				9933C42323E801D1000818B6 /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

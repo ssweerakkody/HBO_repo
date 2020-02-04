@@ -6,4 +6,19 @@
 //  Copyright © 2020 Suneth. All rights reserved.
 //
 
-import Foundation
+class Movie{
+    var key:String
+    var Title:String
+    var MovieYear:String
+    var Rating:String
+    
+    init(dictionary:[String:AnyObject],key:String) {
+        
+        self.key = key
+        self.Title = dictionary["Title"] as! String
+        self.MovieYear = dictionary["MovieYear"] as! String
+        self.Rating = dictionary["Rating"] as! String
+        
+    }
+    
+}

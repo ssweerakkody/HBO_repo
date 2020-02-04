@@ -136,7 +136,7 @@ class AddMovieViewController: UIViewController {
                 //                let dbChildName = UUID().uuidString
                 
                 
-                let dbRef = Database.database().reference().child("Movies").childByAutoId()
+                let dbRef = Database.database().reference().child("Movies").child("UploadedMovies").childByAutoId()
                 
                 
                 let data = [

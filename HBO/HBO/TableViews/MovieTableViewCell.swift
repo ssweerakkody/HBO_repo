@@ -21,11 +21,17 @@ class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var imgMovie: UIImageView!
     
 
-//    weak internal var delegate: MovieTableViewCelldelegate?
-//
-//    internal protocol MovieTableViewCelldelegate : AnyObject {
-//
-//        func avatarTableViewCell(_ MovieTableViewCell: MovieTableViewCell, avatarButtonTappedFor user: String)
-//    }
+    weak internal var delegate: MovieTableViewCelldelegate?
+
+   
 
 }
+
+protocol MovieTableViewCelldelegate: AnyObject {
+    func avatarTableViewCell(_ MovieTableViewCelldelegate: MovieTableViewCell, avatarButtonTappedFor user: String)
+    
+    
+    
+    
+}
+

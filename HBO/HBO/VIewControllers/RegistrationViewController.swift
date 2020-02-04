@@ -48,9 +48,9 @@ class RegistrationViewController: UIViewController{
             if((error==nil)){
                 
              self.showAlert(title: "Success", message: "User Registration Success !")
-//                let vc = UIStoryboard(name:"main",bundle: nil).instantiateViewController(withIdentifier: "login")
-//
-//                self.present(vc,animated: true,completion: nil)
+                let vc = UIStoryboard(name:"UserAuthentication",bundle: nil).instantiateViewController(withIdentifier: "login")
+
+                self.present(vc,animated: true,completion: nil)
                 
             }
             else{
